@@ -55,6 +55,12 @@ It is the sum of all the depths of the nodes devided by the total number of node
 
 $\huge w = \dfrac{\sum\limits_{n_f}^{n_l}{n_d}}{n_t+1}$
 
+# Update Jul 23 2023
+
+I have calculated the depths of each of the nodes in order to start preparing for the calculation of weight.
+
+I will next focus on being able to count all the nodes in the current tree.
+
 ### Method 2:
 
 #### Node Frequency && Node Depth
