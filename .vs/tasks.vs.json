@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-bst_cpp",
+      "appliesTo": "bst_cpp/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-BinarySearchTree",
+      "appliesTo": "bst_cpp/BinarySearchTree.cpp",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-BinarySearchTree",
+      "appliesTo": "bst_cpp/BinarySearchTree.cpp",
+      "type": "launch"
+    }
+  ]
+}

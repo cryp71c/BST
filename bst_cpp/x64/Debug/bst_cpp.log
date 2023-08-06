@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\Harry\Desktop\Programming\Python\Algorithms\BST\bst_cpp\Node.h(26,13): error C2923: 'std::is_empty': 'current_node' is not a valid template type argument for parameter '_Ty'
+C:\Users\Harry\Desktop\Programming\Python\Algorithms\BST\bst_cpp\Node.h(25,35): message : see declaration of 'current_node'
+C:\Users\Harry\Desktop\Programming\Python\Algorithms\BST\bst_cpp\Node.h(26,37): error C2955: 'std::is_empty': use of class template requires template argument list
+E:\VisualStudio\VC\Tools\MSVC\14.36.32532\include\type_traits(538,1): message : see declaration of 'std::is_empty'
+C:\Users\Harry\Desktop\Programming\Python\Algorithms\BST\bst_cpp\Node.h(26,37): error C2039: 'value': is not a member of 'std::is_empty<_Ty>'
+C:\Users\Harry\Desktop\Programming\Python\Algorithms\BST\bst_cpp\main.cpp(11,14): error C2275: 'Node': expected an expression instead of a type
+C:\Users\Harry\Desktop\Programming\Python\Algorithms\BST\bst_cpp\main.cpp(11,19): error C2146: syntax error: missing ';' before identifier 'new_node'
+C:\Users\Harry\Desktop\Programming\Python\Algorithms\BST\bst_cpp\main.cpp(11,19): error C3861: 'new_node': identifier not found
