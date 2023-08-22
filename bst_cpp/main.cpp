@@ -21,6 +21,11 @@ public:
     }
 
     void add_next_available(Node*&new_node, Node*&current_node){
+        if (new_node->data == current_node->data){
+            std::cout << "Data already in tree." << std::endl;
+            return;
+        }
+
         if(new_node->data < current_node->data){
             if(current_node->left == nullptr){
                 current_node->left=new_node;
